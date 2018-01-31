@@ -115,6 +115,10 @@ footer a:hover{
 	color: #e6b800;
 }
 
+footer .grid_3{
+	margin-top: 10px;
+}
+
 footer .grid_3 hr{
 	margin-top: 5px;
 	margin-bottom: 5px;
