@@ -11,6 +11,9 @@ body{
 	margin-right: auto;
 }
 
+
+
+/*----------------------------------  Header ----------------------------------*/
 header .logo{
 	text-align: center;
 	margin-top: 10px;
@@ -31,6 +34,7 @@ header dt{
 	display: inline;
 }
 
+/*---------------------------------- Nav Header ----------------------------------*/
 nav a{
 	text-decoration: none;
 	color: grey;
@@ -59,20 +63,13 @@ nav form{
 	margin-left: 150px;
 	width:300px;
 }
+/*----------------------------------  End Nav Header ----------------------------------*/
+/*----------------------------------  End Header ----------------------------------*/
 
 
 
 
-
-
-
-
-
-
-
-
-
-
+/*----------------------------------  Section ----------------------------------*/
 section{
 	width:980px;
 	margin: auto;
@@ -86,22 +83,23 @@ section a{
 section a:hover{
 	text-decoration: underline;
 }
+/*----------------------------------  End Section ----------------------------------*/
 
+
+
+
+/*----------------------------------  Article ----------------------------------*/
 article .grid_3{
 	display: inline;
 	margin-top: 30px;
 	margin-bottom: 20px;
 }
+/*----------------------------------  End Article ----------------------------------*/
 
 
 
 
-
-
-
-
-
-
+/*----------------------------------  Footer ----------------------------------*/
 footer{
 	background-image: url("../images/bottom.png");
 	color: grey;
@@ -118,7 +116,8 @@ footer a:hover{
 }
 
 footer .grid_3 hr{
-	margin-left: -16px;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 footer .grid_5{
@@ -134,7 +133,4 @@ footer #footerbottom{
 .footerright span{
 	color: lightgrey;
 }
-
-.footerright img{
-	
-}
+/*----------------------------------  End Footer ----------------------------------*/
